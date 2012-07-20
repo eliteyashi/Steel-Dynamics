@@ -1,0 +1,163 @@
+/* http://www.menucool.com */
+
+.captiooon {
+	width: 190px;
+	height: 240px;
+	display: inline-block;
+	background: white url(images/caption4.gif) no-repeat 0 0;
+	border-radius: 0px;
+}
+.inner_links {
+	border-right: 1px dotted white;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	height: 62px;
+	line-height: 60px;
+	margin-left: 0 !important;
+	margin-top: 15px;
+	padding-top: 0 !important;
+}
+#mcis {
+	display: none;
+}
+/*slider frame*/
+#sliderFrame {
+	width: 940px;
+	margin: 0 auto;
+	background-color: White;
+	padding-top: 6px;
+	border-radius: 0px 0px 0 0;
+}
+#slider {
+	width: 940px;
+	height: 369px;/* Make it the same size as your images */
+	background: transparent url(loading.gif) no-repeat 50% 50%;
+	position: relative;
+	margin: 0 auto;/*make the image slider center-aligned */
+}
+#slider img {
+	position: absolute;
+	border: none;
+	visibility: hidden;
+}
+/* the link style (if slide image is wrapped in a link) */
+#slider a.imgLink {
+	z-index: 2;
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+/* Caption styles */
+div.mc-caption-bg, div.mc-caption-bg2 {
+	position: absolute;
+	width: 190px;
+	height: 369px;
+	padding: 0px;
+	right: 0px; /* or right: ??px; */
+	top: 0px;/* or bottom: ??px; */
+	z-index: 3;
+	overflow: hidden;
+	font-size: 0;
+	width: 387px;
+}
+div.mc-caption-bg {
+	background-color: #BE1E2D; /*Caption background color. Can be set to "background:transparent;", or set to semi-transparent through the sliderOptions.captionOpacity setting in the javascript.*/
+	border-radius: 0px;
+}
+div.mc-caption {
+	font: bold 15px/20px Arial;
+	color: #000000;
+	z-index: 4;
+	padding: 0px;
+	text-align: center;
+}
+div.mc-caption a {
+	color: #66FFFF;
+}
+/* ------ built-in navigation bullets wrapper that is relative to the #slider ------*/
+div.navBulletsWrapper {
+	display: none;
+}
+/*thumbnails*/
+#thumbs {
+	background: url("thumb_bgdd.png") repeat-x scroll 0 0 #000000;
+	border: 0 solid white;
+	font-size: 0;
+	height: 67px;
+	line-height: 85px;
+	text-align: center;
+}
+#thumbs .thumb {
+	/* border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #DDDDDD;
+    cursor: pointer;
+    display: inline-block;
+    height: 62px;
+    text-align: center;
+    width: 232px;*/
+	
+	
+	cursor: pointer;
+	display: inline-block;
+	height: 78px;
+	position: relative;
+	text-align: center;
+	top: -11px;
+	width: 235px;
+	z-index: 1000;
+ *display:inline;
+	zoom: 1; /*IE Hack*/
+}
+#thumbs .thumb-on {
+	background: url(thumb_on.png) top center no-repeat
+}
+#thumbs .thumb img {
+	vertical-align: middle;
+}
+/* --------- Others ------- */
+#slider {
+	transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	-webkit-transform: translate3d(0, 0, 0);
+}
+/*----------- navigation buttons on both sides of the slider -----------*/
+.group1-Wrapper {
+	margin-left: 50%;
+	position: absolute;
+	top: 186px;
+	width: 1px;
+	z-index: 20;
+}
+a.group1-Prev, a.group1-Next {
+	background: url("gallery_nav.png") top left no-repeat;
+	display: block;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	user-select: none;
+}
+a.group1-Prev {
+	background-position: -5px -67px;
+    height: 57px;
+    margin-left: -503px;
+    width: 56px;
+}
+a.group1-Next {
+	background-position: -5px -5px;
+    height: 57px;
+    margin-left: 447px;
+    width: 56px;
+}
+
+/*a.group1-Prev:hover{background-position:50px 0;}
+a.group1-Next:hover {background-position:50px -150px;}*/

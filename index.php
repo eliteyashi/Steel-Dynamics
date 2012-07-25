@@ -11,8 +11,8 @@
  	         
  	           <img src="img/gallery_image/1.jpg" alt="#htmlcaption1" />
  				 <img src="img/gallery_image/2.jpg" alt="#htmlcaption2" />
- 				  <img src="img/gallery_image/3.jpg" alt="#htmlcaption3" />
- 				   <img src="img/gallery_image/4.jpg" alt="#htmlcaption4" />
+ 				  <img src="img/gallery_image/4.jpg"  alt="#htmlcaption3"  />
+				  <img src="img/gallery_image/3.jpg" alt="#htmlcaption4"/>
  	       </div>
  	       <!--thumbnails-->
  	       <div id="thumbs">

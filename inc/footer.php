@@ -55,7 +55,7 @@
 <ul class="social_icon">
 	<li><a href="https://www.facebook.com/pages/Steel-Dynamics/408567155846009" target="_blank"><img src="img/facebook_b.png"></a></li>
 	<li><a href="http://twitter.com/dynamicsltd" target="_blank"><img src="img/twitter_b.png"></a></li>
-	<li><a href="http://uk.linkedin.com/pub/robert-pattenden/16/754/b9" target="_blank"><img src="img/linkedin_b.png"></a></li>
+	<li><a href="http://www.linkedin.com/groups?home=&gid=4545401&trk=anet_ug_hm" target="_blank"><img src="img/linkedin_b.png"></a></li>
 	<li><a href="#"><img src="img/youtube_b.png" target="_blank"></a></li>
 </ul>
 

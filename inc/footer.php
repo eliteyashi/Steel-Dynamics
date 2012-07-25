@@ -15,7 +15,8 @@
 
 <div class="facebook_mini">FACEBOOK UPDATES</div>
 <div class="twitter_container clearfix">
-<div id="facebook"> </div>
+<!--<div id="facebook"> </div>-->
+<div class="fb-activity" data-site="www.steel-dynamics.co.uk" data-app-id="250455908404933" data-width="250" data-height="150" data-header="false" data-border-color="#FFF" data-recommendations="false"></div>
 </div>
 
 
@@ -63,7 +64,14 @@
 </div>
 
 
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=250455908404933";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 
 
@@ -73,6 +81,8 @@
 	<div class="copy grid_6 alpha">© Copyright Steel Dynamics 2012</div>
 	<div class="sales copy omega push_7"><a href="19.06.12 Standard Sale Terms Fieldings Porter.pdf" target="_blank">Download terms and conditions of sale</a></div>
 </section>
+<div class="clearfix"></div>
+<div class="container_16"><a href="www.simon-roberts.com" target="_blank" class="grid_5 push_6 simon"><img src="img/siweblog.gif" width="150" height="31"></a></div>
 
 </div>
 

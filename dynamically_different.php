@@ -47,7 +47,8 @@
 
 <div class="grid_4 titles clearfix">OUR <span>VISION</span> </div>
 <div class="grid_15 clearfix intro_title">Our vision guides every aspect of our business by describing what we need to accomplish in order to continue achieving sustainable, quality growth.</div>
-<div class="grid_15 clearfix content">“Our vision is to be world class in the eyes of our customers. Understanding Clients aspirations and supplying them quality processed steel solutions.”</div>
+<div class="grid_15 our_mission_content maginnn"><span class="st_quot"></span>Our vision is to be world class in the eyes of our customers. Understanding Clients aspirations and supplying them quality processed steel solutions. &nbsp;&nbsp;<img src="img/r-quot.png" width="15" height="12"></div>
+<!--<div class="grid_15 clearfix content">“Our vision is to be world class in the eyes of our customers. Understanding Clients aspirations and supplying them quality processed steel solutions.”</div>-->
 
 
 </section>

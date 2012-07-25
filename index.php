@@ -74,8 +74,8 @@
 </section>
 
 <section class="container_16 bg clearfix">
-
-<div class="grid_4 our_mission clearfix">OUR <span>MISSION.</span></div>
+<section class="separator"></section>
+<div class="grid_4 our_mission clearfix">OUR <span>MISSION</span></div>
 <div class="grid_15 our_mission_content"><span class="st_quot"></span>To re-define service through superior Technology, Cost and Culture &nbsp;&nbsp;<img src="img/r-quot.png" width="15" height="12"></div>
 
 

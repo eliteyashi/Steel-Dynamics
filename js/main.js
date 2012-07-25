@@ -17,7 +17,7 @@ $(document).ready(function() { $("#select").select2(); });
 $(function(){
       $('#facebook').fbWall({
        id:'408567155846009',
-       accessToken:'AAAC7gAoWDQ0BAACO5X2API6cwSZAIeqy3IKILZCBVBeaGGBbGYT6q7vo1h6kQcfjyM9OZCHJcHfBDeHZAYxl7ZABlbpf0PiZCeZADAzZAVT1lgZDZD',
+       accessToken:'AAAC7gAoWDQ0BALAhBwvQ4aeLDKroNX54ivHgM9McYC5KS0Fc3gt8pmnyqwceflipZBjU2lCy7ywrkUj3IE0fbpNXwHZAE5XwPOVKrQ9gZDZD',
        avatarAlternative:   'avatar-alternative.jpg',
        avatarExternal:     'avatar-external.jpg',
        max:          1,

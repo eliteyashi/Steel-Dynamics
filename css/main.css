@@ -739,6 +739,7 @@ ul.main_menu li a:hover{
 	padding:0px;
 	height:auto;
 	width: 960px !important;
+	margin-top:1px;
 	}
 .gallery_title{
 	color:#FFF;
@@ -815,6 +816,7 @@ ul.main_menu li a:hover{
     padding-left: 25px;
     padding-top: 0;
     text-align: left;
+	width:746px !important;
 }
 	
 .st_quot{
@@ -989,7 +991,7 @@ ul.main_menu li a:hover{
 	font-family:Arial, Helvetica, sans-serif;
 	color:#333333;
 	font-size:13px;
-	margin-bottom:60px;
+	margin-bottom:29px;
 	margin-top:10px;
 	}
 .copy a{
@@ -1054,6 +1056,13 @@ ul.main_menu li a:hover{
 	margin-bottom:20px;
 	list-style-image:url(../img/list.png)
 	}
+.separator{
+	border-bottom:1px solid rgba(0, 0, 0, 0.1);
+	height:1px;
+	width:960px;
+	margin:20px 0px 0px 0px;
+	
+	}
 .breadcrumb{
 	padding:10px;
 	border-bottom:1px solid rgba(0, 0, 0, 0.1);
@@ -1082,7 +1091,7 @@ ul.breadcrumb_link_container li:first-child{
     padding: 0 8px;
 	}
 ul.breadcrumb_link_container li a{
-	color: #3F5985;
+	color: #BE1E2C;
     font-family: Arial,Helvetica,sans-serif;
     font-size: 11px;
     padding: 3px;
@@ -1174,6 +1183,7 @@ ul.breadcrumb_link_container li a{
 	font-size:13px;
 	color:#666666;
 	width:435px !important;
+	text-align:justify;
 	}
 .quality_content1{
 	margin-left:25px;
@@ -1182,6 +1192,8 @@ ul.breadcrumb_link_container li a{
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:13px;
 	color:#666666;
+	text-align:justify;
+	width:285px !important;
 	}
 .laqa_logo{
 	margin-top:10px;
@@ -1227,7 +1239,7 @@ ul.breadcrumb_link_container li a{
     font-family: 'Helvetica', sans-serif;
 	color:#FFF;
 	padding:10px 25px;
-	margin-top:20px
+	margin-top:15px
 	}
 .process_semi_title{
 	color:#333333;
@@ -1240,6 +1252,8 @@ ul.breadcrumb_link_container li a{
 	font-size:13px;
 	color:#666666;
 	margin:10px 0px 0px 10px;
+	text-align: justify;
+    width: 391px !important;
 	}
 .news_date{
 	font-family:Arial, Helvetica, sans-serif;
@@ -1304,6 +1318,7 @@ ul.archive_container li a:hover{
 	color:#666666;
 	padding-left: 25px;
 	margin-bottom:30px;
+	text-align:justify;
 	}
 .news_content em{
 	font-size:14px;
@@ -1437,7 +1452,9 @@ ul.archive_container li a:hover{
 	width:396px !important;
 	}
 
-
+.simon{
+	margin-bottom:40px;
+	}
 
 
 
@@ -1843,7 +1860,7 @@ ul.archive_container li a:hover{
 
 .jta-tweet-list-item
 {
-    background: #fafafa;
+    background: #FFF;
    /* border-bottom: 1px solid #e4e4e4;*/
     padding: 8px 0px 8px 0px;
     overflow: hidden;

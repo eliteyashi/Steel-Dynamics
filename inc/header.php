@@ -27,12 +27,14 @@
 </head>
 <body>
      <!--[if lt IE 7]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+	 
+ <script src="//connect.facebook.net/en_US/all.js"></script>
 <div class="mainwrapper">
 
 
   <header class="header" >
     	<div class="container_16">
-    	    <div class="grid_4 logo"></div>
+    	    <a href="index.php" title="Home"><div class="grid_4 logo"></div></a>
     	    <div class="grid_12">
     	        <div class="grid_4 alpha omega index_address push_2">STEEL DYNAMICS LIMITED<br><span>16 Bradley Fold Trading Estate<br>Radcliffe, Bolton BL2 6RT</span></div>
     	       <div class="grid_5 alpha omega push_3">

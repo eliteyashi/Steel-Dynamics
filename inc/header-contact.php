@@ -104,7 +104,7 @@ $_SESSION['captcha'] = captcha();
 
   <header class="header" >
         <div class="container_16">
-            <div class="grid_4 logo"></div>
+            <a href="index.php" title="Home"><div class="grid_4 logo"></div></a>
             <div class="grid_12">
                 <div class="grid_4 alpha omega index_address push_2">STEEL DYNAMICS LIMITED<br><span>16 Bradley Fold Trading Estate<br>Radcliffe, Bolton BL2 6RT</span></div>
                <div class="grid_5 alpha omega push_3">

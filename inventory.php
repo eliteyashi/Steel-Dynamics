@@ -9,7 +9,7 @@
 <div class="page_header_bottom"></div>
 </div>
 <div class="page_image grid_11 alpha omega">
-<img src="img/page_header_image/news.jpg" width="680">
+<img src="img/page_header_image/inventory.jpg" width="680">
 
 </div>
 
